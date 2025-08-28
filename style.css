@@ -1,0 +1,13 @@
+/* style.css
+  This file contains custom styles for the portfolio page.
+*/
+
+/* Smooth transition for dark mode on various elements */
+body, .bg-gray-50, .bg-white, .bg-gray-800, .bg-gray-900, .text-gray-900, .text-gray-100, .border-gray-200, .border-gray-700 {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+/* Ensures the profile image covers the circular frame without distortion */
+.profile-img {
+    object-fit: cover;
+}
